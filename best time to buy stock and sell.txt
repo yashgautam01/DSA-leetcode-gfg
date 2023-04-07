@@ -1,6 +1,7 @@
 class Solution {
     public int maxProfit(int[] p) {
     
+    
         int buy = p[0];
         int max=-1;
         for(int i=0;i<p.length;i++){
