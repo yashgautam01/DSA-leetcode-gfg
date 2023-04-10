@@ -9,6 +9,7 @@ class Solution {
             if(buy>p[i]){
             
                 buy = p[i];
+                
             }
             else if(p[i]-buy >max){
             
