@@ -11,6 +11,7 @@ class Solution {
 			
             if(!map.containsKey(i)){
                 map.put(i,1);
+		
             }
 			
 			//if it does contain the specific key,increase its count/value by 1
