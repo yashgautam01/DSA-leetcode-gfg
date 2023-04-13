@@ -3,6 +3,7 @@ class Solution {
     public static String removeOuter(String s) {
     
         // code here
+        
         StringBuilder sb  = new StringBuilder();
         int j=0;
         char[] ch = s.toCharArray();
