@@ -8,6 +8,7 @@ class Solution {
                 result.append(word1.charAt(i));
             }
             if (i < word2.length()) {
+            
                 result.append(word2.charAt(i));
             }
             i++;
