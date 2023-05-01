@@ -1,0 +1,22 @@
+import java.util.* ;
+import java.io.*; 
+public class Solution 
+{
+  public static Stack<Integer> pushAtBottom(Stack <Integer> myStack, int x) 
+  {
+    // Write your code here
+
+    Stack<Integer> newstack = new Stack<>();
+    while(!myStack.isEmpty()){
+      newstack.push(myStack.peek());
+      myStack.pop();
+    }
+    myStack.push(x);
+    while(!newstack.isEmpty()){
+      myStack.push(newstack.peek());
+      newstack.pop();
+
+    }
+    return myStack;
+  }
+}
