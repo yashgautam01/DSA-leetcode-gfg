@@ -11,6 +11,7 @@ class Solution {
             if(ch[i]==')')j--;
             if(j!=0 ) sb.append(ch[i]);
             
+            
             if(ch[i]=='(')j++;
             
         }
