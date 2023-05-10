@@ -9,6 +9,7 @@ public class Solution
     Stack<Integer> newstack = new Stack<>();
     while(!myStack.isEmpty()){
     
+    
       newstack.push(myStack.peek());
       myStack.pop();
     }
