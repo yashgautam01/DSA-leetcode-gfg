@@ -10,6 +10,7 @@ public class Solution
     while(!myStack.isEmpty()){
     
     
+    
       newstack.push(myStack.peek());
       myStack.pop();
     }
