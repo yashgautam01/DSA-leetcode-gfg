@@ -5,6 +5,7 @@ public class Solution
   public static Stack<Integer> pushAtBottom(Stack <Integer> myStack, int x) 
   {
     // Write your code here
+    
 
     Stack<Integer> newstack = new Stack<>();
     while(!myStack.isEmpty()){
