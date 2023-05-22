@@ -1,0 +1,21 @@
+class Solution {
+    public static List<Integer> generateRow(int n){
+        List<Integer> l = new ArrayList<>();
+        long ans =1;
+        l.add(1);
+        for(int col =1;col<n;col++){
+            ans = ans*(n-col);
+            ans=ans/col;
+            l.add((int)ans);
+        }
+        return l;
+    }
+    public List<List<Integer>> generate(int n) {
+        List<List<Integer>> li= new ArrayList<>();
+        for(int i =1;i<=n ;i++){
+            li.add(generateRow(i));
+        }
+return li;
+        
+    }
+}
