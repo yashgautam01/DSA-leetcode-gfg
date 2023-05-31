@@ -5,6 +5,7 @@ class Solution {
             if(nums[i-1] < nums[i]) {
                 break;
             }
+            
             i--;
         }
 
