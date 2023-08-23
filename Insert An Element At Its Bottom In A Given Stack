@@ -15,6 +15,7 @@ public class Solution
     
     
       newstack.push(myStack.peek());
+
       myStack.pop();
     }
     myStack.push(x);
