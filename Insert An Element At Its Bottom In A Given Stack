@@ -11,6 +11,7 @@ public class Solution
     Stack<Integer> newstack = new Stack<>();
     while(!myStack.isEmpty()){
 
+
     
     
     
