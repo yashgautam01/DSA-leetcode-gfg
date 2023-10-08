@@ -12,7 +12,8 @@ class Solution {
         }
         return l;
     }
-    
+
+
     public List<List<Integer>> generate(int n) {
         List<List<Integer>> li= new ArrayList<>();
         for(int i =1;i<=n ;i++){
