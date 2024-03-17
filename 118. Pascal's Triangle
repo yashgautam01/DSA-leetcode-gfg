@@ -3,6 +3,7 @@ class Solution {
         List<Integer> l = new ArrayList<>();
         long ans =1;
         l.add(1);
+
         for(int col =1;col<n;col++){
             ans = ans*(n-col);
 
