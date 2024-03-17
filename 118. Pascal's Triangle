@@ -9,7 +9,8 @@ class Solution {
 
 
             
-            
+
+
             ans=ans/col;
             l.add((int)ans);
         }
